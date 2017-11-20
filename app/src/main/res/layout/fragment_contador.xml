@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a21650521.appfragmentoestatico.ContadorFragment">
+
+    <TextView
+        android:id="@+id/tvNumCaracteres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:text="@string/tvText"
+        android:textSize="18sp"
+        android:layout_below="@+id/btnText"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/etTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="@string/et_hint"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etTexto"
+        android:layout_marginTop="81dp"
+        android:onClick="contarCaracteres"
+        android:text="@string/btnText" />
+</RelativeLayout>

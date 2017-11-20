@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppFragmentoEstatico</string>
+    <string name="et_hint">Introduce el texto</string>
+    <string name="btnText">Contar caracteres</string>
+    <string name="tvText">El texto tiene %1$d caracteres</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
